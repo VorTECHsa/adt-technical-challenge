@@ -22,7 +22,7 @@ To get this app up and running please execute the following, you'll need Node 16
 
 > npm run dev
 
-> Navigate to http://localhost:3000/ in your browser and you should see something like this:
+> Navigate to http://127.0.0.1:3000/ in your browser and you should see something like this:
 
 <img width="1200" alt="Screenshot 2022-05-16 at 10 18 59" src="https://user-images.githubusercontent.com/9625257/168560884-1efe8ce6-f82b-43b2-a1dd-5d6ae44310e9.png">
 
