@@ -1,11 +1,11 @@
-import "maplibre-gl/dist/maplibre-gl.css";
+import 'maplibre-gl/dist/maplibre-gl.css';
 
-import { Feature, MultiPolygon } from "geojson";
-import { RampData, RampProperties } from "./types";
-import React, { Dispatch, SetStateAction, useState } from "react";
-import ReactMap, { Marker, Popup, ViewStateChangeEvent } from "react-map-gl";
+import { Feature, MultiPolygon } from 'geojson';
+import { RampData, RampProperties } from './types';
+import React, { Dispatch, SetStateAction, useState } from 'react';
+import ReactMap, { Marker, Popup, ViewStateChangeEvent } from 'react-map-gl';
 
-import maplibregl from "maplibre-gl";
+import maplibregl from 'maplibre-gl';
 
 export const Map = ({
   ramps,
@@ -68,9 +68,8 @@ export const Map = ({
     <ReactMap
       mapLib={maplibregl}
       initialViewState={initialState}
-      style={{ width: "100%", height: "100%" }}
-      // Style and key borrowed from https://www.maptiler.com/maps/#basic//vector/1/0/0
-      mapStyle="https://api.maptiler.com/maps/streets/style.json?key=eIgS48TpQ70m77qKYrsx"
+      style={{ width: '100%', height: '100%' }}
+      mapStyle='https://basemaps.cartocdn.com/gl/voyager-nolabels-gl-style/style.json'
       onMove={filterVisibleRamps}
     >
       {features}
@@ -78,6 +77,8 @@ export const Map = ({
         <Popup
           latitude={popupData.geometry.coordinates[0][0][0][1]}
           longitude={popupData.geometry.coordinates[0][0][0][0]}
+          closeOnClick={false}
+          onClose={() => setPopupData(undefined)}
         >
           {JSON.stringify(popupData)}
         </Popup>
