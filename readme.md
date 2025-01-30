@@ -12,7 +12,7 @@ The challenge comes into two parts:
 
 ### 1. The review of the App
 
-Before the call, conduct a thorough review of the app. Make notes about any issues you notice and areas that could be improved. We recommend cloning and running the app—this will help you understand it better. At this stage, we’re not expecting you to write any code. This step usually takes up to an hour and will help you get familiar with the codebase.
+Before the call, conduct a thorough review of the app. Make notes about any issues you notice and areas that could be improved. We recommend cloning and running the app. This will help you understand it better. At this stage, we’re not expecting you to write any code. This step usually takes up to an hour and will help you get familiar with the codebase.
 
 Some things to think about:
 
@@ -21,7 +21,7 @@ Some things to think about:
 - How would you introduce state management?
 - What improvements would you make to ensure the app is maintainable and scalable?
 - What anti pattern or code smells did you find?
-- Imagine that you’re responsible for this application going forward—how would you approach making it better?
+- Imagine that you’re responsible for this application going forward. How would you go about making it better?
 
 We expect your review to include comments and notes that clearly explain why a particular issue is being highlighted. Wherever possible, include suggestions on how to address or improve the identified issues. This helps us understand your reasoning and thought process. When you finish with this part, please send those notes to us, so we can continue the process.
 
