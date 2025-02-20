@@ -29,7 +29,9 @@ We expect your review to include comments and notes that clearly explain why a p
 
 This will be part of the next session: pair programming. During the session, we’ll introduce a couple of new feature requests. You’ll then brainstorm how to tackle the problem and write some code to implement it.
 
-Please ensure you can run the app and are prepared to apply changes during the session. Double-check that your environment is set up correctly and that the app runs as expected to avoid any delays. If you have any question do not hesitate to ask.
+Please ensure that you can **run the app and are prepared to make changes during the session**. Double-check that your environment is set up correctly and that the app runs as expected to avoid any delays. If you have any questions, do not hesitate to ask.
+
+This will be a **React and TypeScript** interview, so be ready to discuss key concepts in both React and TypeScript, as well as more questions covering more general (language-agnostic) aspects of front-end and back-end applications. Be prepared to explain your thought process and reasoning behind your implementations.
 
 ## Development setup
 
