@@ -31,7 +31,7 @@ This will be part of the next session: pair programming. During the session, weâ
 
 Please ensure that you can **run the app and are prepared to make changes during the session**. Double-check that your environment is set up correctly and that the app runs as expected to avoid any delays. If you have any questions, do not hesitate to ask.
 
-This will be a React and TypeScript interview, so be ready to discuss key concepts such as asynchronous programming, re-renders, state management, caching strategies, data types, loops, and best practices for performance optimization. You may also be asked about handling side effects, component lifecycle, and integrating external APIs. Be prepared to explain your thought process and reasoning behind your implementations.
+This will be a **React and TypeScript** interview, so be ready to discuss key concepts in both React and TypeScript, as well as more questions covering more general (language-agnostic) aspects of front-end and back-end applications. Be prepared to explain your thought process and reasoning behind your implementations.
 
 ## Development setup
 
